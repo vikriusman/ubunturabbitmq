@@ -1,4 +1,1 @@
-# ubunturabbitmq
-git clone
-masuk ke directory baru
-docker-compose up -d
+wget https://github.com/vikriusman/ubunturabbitmq/edit/master/
