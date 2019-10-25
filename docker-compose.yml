@@ -1,1 +1,10 @@
-
+version: '3'
+services:
+  ubuntu:
+   image: ubuntu-rabbitmq
+   build: .
+   ports:
+     - "15672:15672"
+     - "5672:5672"
+     - "25672:25672"
+     - "4369:4369"
